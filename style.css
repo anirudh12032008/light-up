@@ -89,7 +89,7 @@ html , body{
     font-size: 9vw;
 }
 #hero #left{
-    min-width: 50%;
+    min-width: 80%;
 }
 #left button{
     pointer-events: all;
