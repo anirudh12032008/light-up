@@ -59,7 +59,7 @@ html , body{
     font-size: 2.1vh;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 0.17vw;
+    letter-spacing: 0.13vw;
 }
 #hero{
     position: absolute;
@@ -86,7 +86,7 @@ html , body{
     line-height: .9;
     font-family: 'kajiro';
     font-weight: 100;
-    font-size: 11vw;
+    font-size: 9vw;
 }
 #hero #left{
     min-width: 50%;
