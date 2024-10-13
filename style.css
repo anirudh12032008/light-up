@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'gilroy';
 }
 html , body{
     height: 100%;
@@ -84,18 +83,16 @@ html , body{
     left: 0;
     color: #fff;
     line-height: .9;
-    font-family: 'kajiro';
     font-weight: 100;
     font-size: 9vw;
 }
 #hero #left{
-    min-width: 80%;
+    min-width: 100%;
 }
 #left button{
     pointer-events: all;
     padding: .8vw 3vw;
     font-size: 3.3vw;
-    font-family: 'kajiro';
     font-weight: 300;
     margin-top: 2vw;
 }
