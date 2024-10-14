@@ -80,11 +80,12 @@ html , body{
 #hero .elem h1{
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 0; 
     color: #fff;
     line-height: .8;
     font-weight: 100;
-    font-size: 7vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7vw; 
 }
 #hero #left{
     min-width: 100%;
@@ -120,3 +121,210 @@ html , body{
 #right p:nth-child(3){
     margin-bottom: 5vw;
 }
+
+/* Event Details Section */
+.sec.details {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .details .content {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  
+  .details h1 {
+    font-size: 4vw;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .details p {
+    font-size: 1.5vw;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .details .submit-btn {
+    pointer-events: all;
+    padding: 0.8vw 3vw;
+    font-size: 2vw;
+    font-weight: 300;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  /* FAQ Section */
+.faq-section {
+    background-color: #f3f4f6;
+    padding: 2rem;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .faq-item {
+    margin: 1rem 0;
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-question {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .faq-answer {
+    font-size: 1rem;
+    color: #555;
+    display: none;
+    margin-top: 0.5rem;
+  }
+/* Inspiration Section */
+.inspiration-section {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .inspiration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .project-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .project-info {
+    max-width: 500px;
+  }
+  
+  .project-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-info .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .project-info .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .project {
+      flex-direction: column;
+    }
+  }
+  
+ /* Create Project Section */
+.create-project-section {
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .create-project-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .step-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0 2rem;
+  }
+  
+  .step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .step:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .step-text {
+    flex: 1;
+    max-width: 50%; /* Restricting text width to give more space to images */
+  }
+  
+  .step-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .step-text p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .step-image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .step-image img {
+    width: 100%; /* Ensures the image fills the available space */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .step {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .step:nth-child(even) {
+      flex-direction: column;
+    }
+  
+    .step-text, .step-image {
+      max-width: 100%; /* Full width for both text and images on smaller screens */
+    }
+  }
