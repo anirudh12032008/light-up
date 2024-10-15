@@ -13,7 +13,6 @@ Shery.imageEffect("#back", {
 });
 
 
-yg uhjkmjhv  uihj yucj jhgj hujipoik,klmkp
 document.querySelectorAll(".faq-item").forEach(item => {
   item.addEventListener("click", function () {
     let answer = item.querySelector(".faq-answer");
